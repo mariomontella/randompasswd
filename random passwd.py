@@ -1,6 +1,6 @@
 import random
 
-print('Password Generator NetworkMario')
+print('Password Generator')
 
 chars = 'abcdefghijklmnopqrstuwxyzABCDEFGHIJKLMNOPQRSTUWXYZ1234567890!?@#+-_'
 
@@ -18,5 +18,6 @@ for pwd in range (number):
     for c in range(lenght):
         passwords += random.choice(chars)
     print(passwords)
+
 
 
