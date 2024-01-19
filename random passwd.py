@@ -4,7 +4,7 @@ print('Password Generator NetworkMario')
 
 chars = 'abcdefghijklmnopqrstuwxyzABCDEFGHIJKLMNOPQRSTUWXYZ1234567890!?@#+-_'
 
-number = input ('Quante password vuoi generare per hackerare Enzo il King?:')
+number = input ('Quante password vuoi generare?')
 
 number = int(number)
 
